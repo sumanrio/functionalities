@@ -1,0 +1,113 @@
+/*webdev17 clicky_box*/
+#home_box_animation{
+  background-color:black;
+  color:lime;
+  font-family:monospace;
+  font-size:1.5em;
+  white-space:nowrap;
+  position:absolute;
+  height:100%;
+  width:100%;
+}
+
+#home_box_animation div p{
+  width:0;
+  overflow:hidden;
+  margin:0;
+}
+
+@keyframes typing{
+  from{
+    width:0;
+  }
+}
+
+#home_box_animation div p:nth-child(1){
+  width:200em;
+  animation:typing 2s infinite steps(20, end);
+  animation-delay: .5s;
+}
+
+#home_box_animation div p:nth-child(2){
+  width:200em;
+  animation:typing 2s infinite steps(20, end);
+  animation-delay: .2s;
+}
+
+#home_box_animation div p:nth-child(3){
+  width:250em;
+  animation:typing 2.5s infinite steps(25, end);
+}
+
+#home_box_animation div p:nth-child(4){
+  width:300em;
+  animation:typing 3s infinite steps(30, end);
+  animation-delay: .1s;
+}
+
+#home_box_animation div p:nth-child(5){
+  width:250em;
+  animation:typing 2.5s infinite steps(25, end);
+  animation-delay: .3s;
+}
+#home_box_animation div p:nth-child(6){
+  width:250em;
+  animation:typing 2.5s infinite steps(25, end);
+  animation-delay: .1s;
+}
+#home_box_animation div p:nth-child(7){
+  width:250em;
+  animation:typing 2.5s infinite steps(25, end);
+  animation-delay: .1.5s;
+}
+#home_box_animation div p:nth-child(8){
+  width:250em;
+  animation:typing 2.5s infinite steps(25, end);
+  animation-delay: .3s;
+}
+#home_box_animation div p:nth-child(9){
+  width:250em;
+  animation:typing 2.5s infinite steps(25, end);
+  animation-delay: .2s;
+}
+#home_box_animation div p:nth-child(10){
+  width:250em;
+  animation:typing 2.5s infinite steps(25, end);
+  animation-delay: .1s;
+}
+#home_box_animation div p:nth-child(11){
+  width:250em;
+  animation:typing 2.5s infinite steps(25, end);
+  animation-delay: .3s;
+}
+#home_box_animation div p:nth-child(12){
+  width:250em;
+  animation:typing 2.5s infinite steps(25, end);
+  animation-delay: .2s;
+}
+#home_box_animation div p:nth-child(13){
+  width:250em;
+  animation:typing 2.5s infinite steps(25, end);
+  animation-delay: .1.5s;
+}
+#home_box_animation div p:nth-child(13){
+  width:250em;
+  animation:typing 2.5s infinite steps(25, end);
+  animation-delay: .1.5s;
+}
+#home_box_animation div p:nth-child(14){
+  width:250em;
+  animation:typing 2.5s infinite steps(25, end);
+  animation-delay: .1s;
+}
+#home_box_animation div p:nth-child(15){
+  width:250em;
+  animation:typing 2.5s infinite steps(25, end);
+  animation-delay: .2s;
+}
+#home_box_animation div p:nth-child(16){
+  width:250em;
+  animation:typing 2.5s infinite steps(25, end);
+  animation-delay: .3s;
+}
+
